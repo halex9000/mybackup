@@ -29,7 +29,7 @@ VERSION = "1.716b"
 #---------------------------------------------------------------------------------------------------------------------------
 #TipoCopy; 		0 = Singolo File/Dir, 1 = SubDirRecurse, 2 = Mirror (solo per copie no zip)
 #Dir_From; 		Directory di partenza (inserendo il file con percorso fa la copia del singolo file)
-#Dir_To; 		Directory di arrivo, solitamente in \\fskis1.bccer.net\Documenti\Backup
+#Dir_To; 		Directory di arrivo
 #Zip_File;		0 = No, 1 = Si. Genera un file zip anziche' la copia dei file
 #Incremental; 	0 = No, 1 = Si. Fa backup incrementale (solo file toccati in giornata) anziche' globale 
 #             	Quindi il backup deve essere lanciato lo stesso giorno delle modifiche (quotidiano)
@@ -45,7 +45,7 @@ VERSION = "1.716b"
 try:
 	import MySQLdb
 except:
-	print "Installare il modulo MySQLdb"
+	print "Install MySQLdb"
 	print "Win32 => https://pypi.python.org/pypi/MySQL-python/"	
 	print "Linux => apt-get install python-mysqldb"	
 	exit(1)
