@@ -6,6 +6,7 @@ Usage: python mybackup.py myconfig.ini
 
 #First Row (Config sending email after backup)
 
+<pre>
 [CONFIG_MAIL];1;emailfrom@domain.org;emailto@domain.org;smtpserver
 
 [CONFIG_MAIL]: Config Label (don't remove)
@@ -30,3 +31,5 @@ MySQLHost:  MySQL Host address
 MySQL_DB:   DB Name. ['db1','db2'] or * for all
 MySQL_User: Admin name
 MySQL_Pass: Admin password
+
+</pre>
