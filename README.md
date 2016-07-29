@@ -15,9 +15,12 @@ EmailFrom: Email From
 EmailTo:   Email To
 SmtpServer:SMTP Server to send email
 
+</pre>
+
 #Each row after contain a single backup command
 #Each field is separated by semicolon ;
 
+<pre>
 CopyType;Dir_From;Dir_To;Zip_File;Incremental;FilePrefix;FormatDate;MySQLHost;MySQL_DB;MySQL_User;MySQL_Pass
 
 CopyType: 0 = Single File/Dir, 1 = SubDirRecurse, 2 = Mirror (NO ZIP)
