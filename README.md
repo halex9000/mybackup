@@ -1,10 +1,10 @@
 # mybackup.py
 
-Usage: python mybackup.py myconfig.ini
+Usage: python mybackup.py mybackup.ini
 
-# myconfig.ini
+# mybackup.ini
 
-#First Row (Config sending email after backup)
+#First Row to config sending email after backup
 
 <pre>
 [CONFIG_MAIL];1;emailfrom@domain.org;emailto@domain.org;smtpserver
@@ -17,8 +17,7 @@ SmtpServer:SMTP Server to send email
 
 </pre>
 
-#Each row after contain a single backup command
-#Each field is separated by semicolon ;
+#Each row after first contains a single backup command where each field is separated by semicolon (;)
 
 <pre>
 CopyType;Dir_From;Dir_To;Zip_File;Incremental;FilePrefix;FormatDate;MySQLHost;MySQL_DB;MySQL_User;MySQL_Pass
