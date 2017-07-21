@@ -12,7 +12,6 @@ VERSION = "1.717c"
 #        : Fix campi numerici e stringa con replace apice
 #        : MySQL Dump UTF-8
 #
-# mysqldump.exe --defaults-file="c:\users\u3341281\appdata\local\temp\tmpjglirh.cnf"  --set-gtid-purged=OFF --user=root --host=10.8.2.26 --protocol=tcp --port=3306 --default-character-set=utf8 --skip-triggers "macchine"
 ##########################################################################################################################################################
 # Todo: 
 #		- Verifica esistenza Dir_From (se manca ERRORE!!!!)
